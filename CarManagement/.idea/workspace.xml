@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed02e54-083a-4dec-9318-111dbc10ddba" name="Default Changelist" comment="" />
+    <list default="true" id="0ed02e54-083a-4dec-9318-111dbc10ddba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Cars.text" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Cars.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Insurances.text" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Insurances.text" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +45,7 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/Cars.text">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -69,6 +70,9 @@
       <find>loi file cars</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -88,16 +92,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-2" />
     <option name="width" value="835" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,11 +158,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -226,19 +232,20 @@
       <workItem from="1557703736020" duration="4198000" />
       <workItem from="1557713521422" duration="1335000" />
       <workItem from="1557715516144" duration="12766000" />
-      <workItem from="1557732834110" duration="613000" />
+      <workItem from="1557732834110" duration="1211000" />
+      <workItem from="1557798679585" duration="416000" />
+      <workItem from="1557800262542" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25650000" />
+    <option name="totallyTimeSpent" value="26729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1311" height="770" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="-2" width="1545" height="902" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976672" visible="true" weight="0.23715416" />
-      <window_info id="Structure" order="1" sideWeight="0.5023328" side_tool="true" visible="true" weight="0.23715416" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954722" visible="true" weight="0.24349566" />
+      <window_info id="Structure" order="1" sideWeight="0.5045278" side_tool="true" visible="true" weight="0.24349566" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -246,7 +253,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32858992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,11 +437,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Cars.text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
