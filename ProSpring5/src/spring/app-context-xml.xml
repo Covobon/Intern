@@ -2,8 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="injectSimpleConfig" class="com.apress.prospring5.ch3.xml.InjectSimpleConfig"/>
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+        default-lazy-init="true" default-init-method="init">
+    <bean id="shaDigest" class="com.apress.prospring5.ch4.MessageDigestFactoryBean" />
+    <bean id="defaultDigest" class="com.apress.prospring5.ch4.MessageDigestFactoryBean" />
+
+    <!--<bean id="injectSimpleConfig" class="com.apress.prospring5.ch3.xml.InjectSimpleConfig"/>
     <bean id="injectSimpleSpel"
           class="com.apress.prospring5.ch3.xml.InjectSimpleSpel"
           p:name="#{injectSimpleConfig.name}"
@@ -50,4 +54,13 @@
         </property>
     </bean>
 
+    <bean id="singerOne" class="com.apress.prospring5.ch4.SingerWithInterface"  p:name="John Mayer" p:age="39" />
+    <bean id="singerTwo" class="com.apress.prospring5.ch4.SingerWithInterface"  p:age="72" />
+    <bean id="singerThree" class="com.apress.prospring5.ch4.SingerWithInterface"  p:name="John Butler" />
+    <bean id="destructiveBean"
+          class="com.apress.prospring5.ch4.DestructiveBean"
+          destroy-method="destroy"
+          p:filePath=
+                  "#{systemProperties'java.io.tmpdir'}#{systemProperties'file.separator'}test.txt"/>
+    -->
 </beans>
