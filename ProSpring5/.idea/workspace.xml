@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="74b1152e-8098-41af-8c8b-ec998cffa472" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java" afterDir="false" />
+=======
+    <list default="true" id="f1d7d2f6-db8b-46bd-95af-c4e05ecc91c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/common/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Guitarist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plain-jdbc/create-database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plain-jdbc/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plain-jdbc/test-data.sql" afterDir="false" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/../mission" beforeDir="false" afterPath="$PROJECT_DIR$/../mission" afterDir="false" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,35 +39,83 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musicbd: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musicbd: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="album: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musicbd: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="singer: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="e540c71c-9622-49f3-aa1d-847e0c7ed555" />
+    </checked>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Agent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/test-data.sql">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+            <state relative-caret-position="210">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/create-database.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Singer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="716">
+              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,14 +123,126 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+              </folding>
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://e540c71c-9622-49f3-aa1d-847e0c7ed555/schema/information_schema/view/CHARACTER_SETS">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="87e6d57a-3b43-4d19-8561-4a105d01a4b7">
+              <filtering />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+        <entry file="das://e540c71c-9622-49f3-aa1d-847e0c7ed555/schema/information_schema/view/CHECK_CONSTRAINTS">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="87e6d57a-3b43-4d19-8561-4a105d01a4b7">
+              <filtering />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleBeforeAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Guitarist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/common/Singer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>donda</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -69,10 +250,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/MessageDigestFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/AgentAOPDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Singer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/common/Singer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Guitarist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/plain-jdbc/test-data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/Singer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Singer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Album.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/SingerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/plain-jdbc/create-database.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e540c71c-9622-49f3-aa1d-847e0c7ed555/console.sql" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
       </list>
     </option>
   </component>
@@ -95,6 +294,8 @@
           <expand>
             <path>
               <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+=======
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -104,16 +305,56 @@
             </path>
             <path>
               <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="prospring5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+            </path>
+            <path>
+              <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+            </path>
+            <path>
+              <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="ProSpring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="plain-jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
           </expand>
           <select />
         </subPane>
@@ -123,9 +364,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+=======
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.apress.prospring5.ch6.entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/plain-jdbc" />
+    </key>
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +395,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="Application.SimpleBeforeAdvice">
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
     <configuration name="AgentAOPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch5.AgentAOPDemo" />
       <module name="main" />
@@ -153,8 +413,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <recent_temporary>
       <list>
+=======
+    <configuration name="SimpleBeforeAdvice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch5.SimpleBeforeAdvice" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleBeforeAdvice" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
         <item itemvalue="Application.AgentAOPDemo" />
       </list>
     </recent_temporary>
@@ -164,6 +443,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="74b1152e-8098-41af-8c8b-ec998cffa472" name="Default Changelist" comment="" />
       <created>1558354620033</created>
       <option name="number" value="Default" />
@@ -172,29 +452,53 @@
       <workItem from="1558354622562" duration="69000" />
       <workItem from="1558362889629" duration="2765000" />
       <workItem from="1558441425616" duration="9000" />
+=======
+      <changelist id="f1d7d2f6-db8b-46bd-95af-c4e05ecc91c0" name="Default Changelist" comment="" />
+      <created>1558404603661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558404603661</updated>
+      <workItem from="1558404606039" duration="2486000" />
+      <workItem from="1558407747983" duration="6942000" />
+      <workItem from="1558418308434" duration="10522000" />
+      <workItem from="1558432169491" duration="1216000" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2843000" />
+=======
+    <option name="totallyTimeSpent" value="21166000" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
   </component>
   <component name="ToolWindowManager">
     <frame x="930" y="-2" width="931" height="1080" extended-state="4" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.48474577" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25958306" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32988358" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
@@ -211,6 +515,25 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.5118644" />
+=======
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" visible="true" weight="0.32988358" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32952252" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +544,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="jar:///usr/lib/jvm/jdk1.8.0_212/src.zip!/java/security/MessageDigest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -239,12 +563,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/DestructiveBeanWithInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/MessageDigestFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -266,18 +631,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+=======
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e540c71c-9622-49f3-aa1d-847e0c7ed555/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="11" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e540c71c-9622-49f3-aa1d-847e0c7ed555/schema/information_schema/view/CHARACTER_SETS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="87e6d57a-3b43-4d19-8561-4a105d01a4b7">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e540c71c-9622-49f3-aa1d-847e0c7ed555/schema/information_schema/view/CHECK_CONSTRAINTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="87e6d57a-3b43-4d19-8561-4a105d01a4b7">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Guitarist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/common/Singer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/create-database.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Singer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Album.java">
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> b8376adec0c8443230540f89067f3247c11d887d
   </component>
 </project>
