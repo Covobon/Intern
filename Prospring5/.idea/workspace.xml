@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f71aa61d-aae0-40db-93bf-e7c456390f47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/common/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/HelloWorldMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/MessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/MessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/StandardOutMessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/annotation/HelloWorldConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/annotation/HelloWorldSpringAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/ArtworkSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/BookwormOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/ContentHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/DeclareSpringComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/Encyclopedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/FtpArtworkSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/HierachicalAppContextUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/Oracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/Recipient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/XmlConfigWithBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/CollectionInjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/HelloWorldMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/InjectSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/InjectSimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/InjectSimpleSpel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/LyricHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/annotation/StandardOutMessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/CollectionInjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/ConfigurableMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/InjectRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/InjectSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/InjectSimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/InjectSimpleSpel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch3/xml/LyricHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/DestructiveBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/DestructiveBeanWithInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/MessageDigestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/MessageDigestFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/MessageDigester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/SingerWithInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/SingerWithJSR250.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/config/MessageDigesterConfigDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/config/SingerConfigDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AfterAdviceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentAOPDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AgentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ErrorBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/Guitarist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ProfilingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ProfilingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecureBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimplAfterReturningAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleThrowsAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/WeakKeyCheckAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/WorkerBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/PlainJdbcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/PlainSingerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Singer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/app-context-annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/app-context-xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/child-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/parent-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/xml-bean-factory-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plain-jdbc/create-database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plain-jdbc/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plain-jdbc/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProSpring5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProSpring5/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ProSpring5" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ProSpring5" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ProSpring5" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musicbd: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ProSpring5" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musicbd: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="album: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ProSpring5" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musicbd: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="singer: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="244868f6-00f2-498f-a285-fb96876bfa4f" />
+    </checked>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/PlainJdbcDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/PlainSingerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>public void de</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/DestructiveBeanWithInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/SingerWithInterface.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/244868f6-00f2-498f-a285-fb96876bfa4f/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/plain-jdbc/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecureBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimplAfterReturningAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/WeakKeyCheckAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AfterAdviceDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ProfilingInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/WorkerBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ProfilingDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ErrorBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleThrowsAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/PlainSingerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/PlainJdbcDemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProSpring5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ProSpring5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1466" />
+    <option name="y" value="20" />
+    <option name="width" value="1371" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Prospring5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prospring5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PlainJdbcDemo">
+    <configuration name="AfterAdviceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch5.AfterAdviceDemo" />
+      <module name="Prospring5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlainJdbcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch6.PlainJdbcDemo" />
+      <module name="Prospring5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfilingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch5.ProfilingDemo" />
+      <module name="Prospring5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimplAfterReturningAdvice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch5.SimplAfterReturningAdvice" />
+      <module name="Prospring5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleThrowsAdvice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apress.prospring5.ch5.SimpleThrowsAdvice" />
+      <module name="Prospring5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apress.prospring5.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PlainJdbcDemo" />
+        <item itemvalue="Application.SimpleThrowsAdvice" />
+        <item itemvalue="Application.ProfilingDemo" />
+        <item itemvalue="Application.AfterAdviceDemo" />
+        <item itemvalue="Application.SimplAfterReturningAdvice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f71aa61d-aae0-40db-93bf-e7c456390f47" name="Default Changelist" comment="" />
+      <created>1558489985598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558489985598</updated>
+      <workItem from="1558489993193" duration="159000" />
+      <workItem from="1558490209371" duration="205000" />
+      <workItem from="1558490445576" duration="2167000" />
+      <workItem from="1558492735711" duration="15764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18295000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="-2" width="1533" height="902" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56177604" visible="true" weight="0.25958306" />
+      <window_info id="Structure" order="1" sideWeight="0.43822393" side_tool="true" weight="0.25958306" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32988358" />
+      <window_info anchor="bottom" id="Messages" weight="0.32988358" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32988358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988358" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949563" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32952252" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.23133826" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56177604" visible="true" weight="0.25958306" />
+      <window_info id="Structure" order="1" sideWeight="0.43822393" side_tool="true" visible="true" weight="0.25958306" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32988358" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32988358" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32988358" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32988358" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949563" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32952252" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.23133826" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/HelloWorldMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/decoupled/StandardOutMessageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/DestructiveBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/MessageDigester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch2/common/Singer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/SingerWithInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/DestructiveBeanWithInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/create-database.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch4/SingerWithJSR250.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plain-jdbc/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/entities/Singer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/244868f6-00f2-498f-a285-fb96876bfa4f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecureBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="25" column="127" selection-start-line="25" selection-start-column="127" selection-end-line="25" selection-end-column="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimplAfterReturningAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/WeakKeyCheckAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SecurityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/AfterAdviceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/WorkerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ProfilingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ProfilingDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/ErrorBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch5/SimpleThrowsAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://244868f6-00f2-498f-a285-fb96876bfa4f/schema/musicbd/table/album">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="56dda453-2d89-4965-96d3-8bd2aaf84b93">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://244868f6-00f2-498f-a285-fb96876bfa4f/schema/musicbd/table/singer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="56dda453-2d89-4965-96d3-8bd2aaf84b93">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_212/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="939" column="72" selection-start-line="939" selection-start-column="55" selection-end-line="939" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/SingerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/dao/PlainSingerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apress/prospring5/ch6/PlainJdbcDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Prospring5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
