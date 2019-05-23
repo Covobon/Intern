@@ -46,3 +46,165 @@ java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/
 	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
 	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
 	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:39)
+2019-05-23 15:59:12,595 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem loading DB dDriver!
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.<clinit>(PlainSingerDao.java:18)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.<clinit>(PlainJdbcDemo.java:15)
+2019-05-23 15:59:12,614 INFO [main] c.a.p.c.PlainJdbcDemo - Listing initial singer data: 
+2019-05-23 15:59:12,623 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:20)
+2019-05-23 15:59:12,635 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 15:59:12,636 INFO [main] c.a.p.c.PlainJdbcDemo - Insert a new singer
+2019-05-23 15:59:12,648 ERROR [main] c.a.p.c.d.PlainSingerDao - Prblem  executing INSERT
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.insert(PlainSingerDao.java:86)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:28)
+2019-05-23 15:59:12,648 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer created: 
+2019-05-23 15:59:12,648 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:31)
+2019-05-23 15:59:12,648 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 15:59:12,649 INFO [main] c.a.p.c.PlainJdbcDemo - Deleting the previous create singer
+2019-05-23 15:59:12,649 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer deleted: 
+2019-05-23 15:59:12,649 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:39)
+2019-05-23 16:07:00,851 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem loading DB dDriver!
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.<clinit>(PlainSingerDao.java:18)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.<clinit>(PlainJdbcDemo.java:15)
+2019-05-23 16:07:00,860 INFO [main] c.a.p.c.PlainJdbcDemo - Listing initial singer data: 
+2019-05-23 16:07:00,872 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:20)
+2019-05-23 16:07:00,889 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 16:07:00,890 INFO [main] c.a.p.c.PlainJdbcDemo - Insert a new singer
+2019-05-23 16:07:00,894 ERROR [main] c.a.p.c.d.PlainSingerDao - Prblem  executing INSERT
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.insert(PlainSingerDao.java:86)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:28)
+2019-05-23 16:07:00,895 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer created: 
+2019-05-23 16:07:00,902 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:31)
+2019-05-23 16:07:00,903 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 16:07:00,903 INFO [main] c.a.p.c.PlainJdbcDemo - Deleting the previous create singer
+2019-05-23 16:07:00,903 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer deleted: 
+2019-05-23 16:07:00,904 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/musicbd
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:45)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:39)
+2019-05-23 16:09:29,118 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem loading DB dDriver!
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.<clinit>(PlainSingerDao.java:18)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.<clinit>(PlainJdbcDemo.java:15)
+2019-05-23 16:09:29,124 INFO [main] c.a.p.c.PlainJdbcDemo - Listing initial singer data: 
+2019-05-23 16:09:29,130 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/musicbd?useSSL=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:46)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:20)
+2019-05-23 16:09:29,140 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 16:09:29,141 INFO [main] c.a.p.c.PlainJdbcDemo - Insert a new singer
+2019-05-23 16:09:29,143 ERROR [main] c.a.p.c.d.PlainSingerDao - Prblem  executing INSERT
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/musicbd?useSSL=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.insert(PlainSingerDao.java:87)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:28)
+2019-05-23 16:09:29,143 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer created: 
+2019-05-23 16:09:29,143 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/musicbd?useSSL=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:46)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:31)
+2019-05-23 16:09:29,143 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 16:09:29,143 INFO [main] c.a.p.c.PlainJdbcDemo - Deleting the previous create singer
+2019-05-23 16:09:29,143 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer deleted: 
+2019-05-23 16:09:29,143 ERROR [main] c.a.p.c.d.PlainSingerDao - Problem when executing SELECT!
+java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/musicbd?useSSL=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.getConnection(PlainSingerDao.java:25)
+	at com.apress.prospring5.ch6.dao.PlainSingerDao.findAll(PlainSingerDao.java:46)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.listAllSinger(PlainJdbcDemo.java:43)
+	at com.apress.prospring5.ch6.PlainJdbcDemo.main(PlainJdbcDemo.java:39)
+2019-05-23 16:15:01,146 INFO [main] c.a.p.c.PlainJdbcDemo - Listing initial singer data: 
+2019-05-23 16:15:02,770 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 1, First name: John, Last name: Mayer, Birthday: 1977-10-16
+2019-05-23 16:15:02,772 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 2, First name: Eric, Last name: Clapton, Birthday: 1945-03-30
+2019-05-23 16:15:02,772 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 3, First name: John, Last name: Butler, Birthday: 1875-04-01
+2019-05-23 16:15:02,772 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 16:15:02,772 INFO [main] c.a.p.c.PlainJdbcDemo - Insert a new singer
+2019-05-23 16:15:03,082 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer created: 
+2019-05-23 16:15:03,125 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 1, First name: John, Last name: Mayer, Birthday: 1977-10-16
+2019-05-23 16:15:03,125 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 2, First name: Eric, Last name: Clapton, Birthday: 1945-03-30
+2019-05-23 16:15:03,126 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 3, First name: John, Last name: Butler, Birthday: 1875-04-01
+2019-05-23 16:15:03,126 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 8, First name: Ed, Last name: Sheeran, Birthday: 1996-08-11
+2019-05-23 16:15:03,126 INFO [main] c.a.p.c.PlainJdbcDemo - ---------
+2019-05-23 16:15:03,126 INFO [main] c.a.p.c.PlainJdbcDemo - Deleting the previous create singer
+2019-05-23 16:15:03,126 INFO [main] c.a.p.c.PlainJdbcDemo - Listing singer data after new singer deleted: 
+2019-05-23 16:15:03,157 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 1, First name: John, Last name: Mayer, Birthday: 1977-10-16
+2019-05-23 16:15:03,157 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 2, First name: Eric, Last name: Clapton, Birthday: 1945-03-30
+2019-05-23 16:15:03,157 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 3, First name: John, Last name: Butler, Birthday: 1875-04-01
+2019-05-23 16:15:03,158 INFO [main] c.a.p.c.PlainJdbcDemo - Singer -id: 8, First name: Ed, Last name: Sheeran, Birthday: 1996-08-11

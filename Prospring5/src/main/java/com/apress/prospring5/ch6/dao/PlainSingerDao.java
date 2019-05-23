@@ -15,15 +15,16 @@ public class PlainSingerDao implements SingerDao {
             LoggerFactory.getLogger(PlainSingerDao.class);
     static {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        }catch (ClassNotFoundException ex){
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+        }catch (Exception ex){
             logger.error("Problem loading DB dDriver!", ex);
         }
     }
 
     private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/musicbd", "prospring5", "prospring5");
-    }
+        return  DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/musicbd?useSSL=true",
+                "root", "123456");    }
 
     private void closeConnection(Connection connection) {
         if (connection == null){
