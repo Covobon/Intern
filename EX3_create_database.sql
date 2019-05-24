@@ -70,7 +70,8 @@ create table if not exists mathang(
 create table if not exists chitietdathang(
 	sohoadon int,
     mahang int,
-    giaban int,
+    giaban long,
+    soluong int,
     mucgiamgia float,
     primary key (sohoadon, mahang),
     foreign key (sohoadon) references dondathang(sohoadon),
@@ -294,12 +295,18 @@ begin
 	set @counter := 0;
     set @idhoadon := 2;
     set @idmahang := 1;
+    set @giabansanpham := 0;
+    set @soluongtong := 0;
+    set @soluongdon := 0;
     while @counter < counter1 do
 		select sohoadon into @idhoadon from dondathang order by rand() limit 1;
 		select mahang into @idmahang from mathang order by rand() limit 1;
         set @giamgia := elt(1+floor(rand()*5), 0.1, 0.2, 0.3, 0.4, 0.5);
-		insert into chitietdathang(sohoadon, mahang, giaban, mucgiamgia) value
-        (@idhoadon, @idmahang, getId(40000000), @giamgia);
+        select mathang.giahang into @giabansanpham from mathang where mathang.mahang=@idmahang limit 1;
+        select mathang.soluong into @soluongtong from mathang where mathang.mahang=@idmahang limit 1;
+        set @soluongdon = getId(@soluongtong);
+		insert into chitietdathang(sohoadon, mahang, giaban, soluong, mucgiamgia) value
+        (@idhoadon, @idmahang, @giabansanpham*@soluongdon, @soluongdon, @giamgia);
         set @counter = @counter + 1;
     end while;
 end //
