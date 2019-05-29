@@ -2,19 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07dc7d1a-85f2-4438-bbbb-4a2188306a9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/drivermanager-cfg-01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/dataSources/244868f6-00f2-498f-a285-fb96876bfa4f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/dataSources/3a877356-e378-4bd7-9942-e69e1287e6ce.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnLogBack/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnLogBack/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnLogBack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnLogBack/src/main/java/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnLogBack/src/main/java/com/howtodoinjava/log4j2/examples/Log4j2HelloWorldExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnLogBack/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/dao/ClasDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/dao/JdbcClasDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/dao/JdbcStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/dao/JdbcTeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/dao/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/entities/Clas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/entities/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/services/ServiceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/services/ServiceStudentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/services/ServiceTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/java/services/ServiceTeacherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/resources/db/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/resources/spring/configuration-bean-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/resources/spring/configuration-bean-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManageStudent/src/main/resources/spring/configuration-bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prospring5/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prospring5/src/main/java/com/apress/prospring5/ch6/MySQLErrorCodesTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prospring5/src/main/java/com/apress/prospring5/ch6/config/EmbeddedJdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prospring5/src/main/java/com/apress/prospring5/ch6/dao/JdbcSingerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/java/DataKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/java/HashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProSpring/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProSpring/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProSpring/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProSpring/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProSpring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProSpring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prospring5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/ProSpring5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/src/main/java/com/apress/prospring5/ch6/entities/TestConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/src/main/java/com/apress/prospring5/ch6/entities/TestConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/target/classes/com/apress/prospring5/ch6/DbConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/target/classes/com/apress/prospring5/ch6/DbConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prospring5/target/classes/com/apress/prospring5/ch6/entities/TestConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Prospring5/target/classes/com/apress/prospring5/ch6/entities/TestConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,16 +83,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -44,21 +101,57 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/java/DataKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
-                <element signature="e#724#742#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/java/HashingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -90,8 +183,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/spring/drivermanager-cfg-01.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db/jdbc.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Student.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/java/as.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/java/DataKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/java/HashingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestArrayList.java" />
       </list>
     </option>
   </component>
@@ -123,19 +221,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1466" />
-    <option name="y" value="20" />
-    <option name="width" value="1371" />
-    <option name="height" value="842" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="170" />
+    <option name="y" value="96" />
+    <option name="width" value="1026" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -145,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +265,14 @@
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,11 +287,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -220,7 +322,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestArrayList">
+    <configuration name="HashingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.journaldev.java.HashingTest" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.journaldev.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Run" />
       <module name="Test" />
@@ -228,8 +343,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestArrayList" />
+      <module name="Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestArrayList" />
+        <item itemvalue="Application.HashingTest" />
         <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
@@ -245,45 +369,47 @@
       <option name="presentableId" value="Default" />
       <updated>1558662642253</updated>
       <workItem from="1558662645830" duration="1727000" />
+      <workItem from="1559118196759" duration="4031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1727000" />
+    <option name="totallyTimeSpent" value="5758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1533" height="902" extended-state="6" />
+    <frame x="0" y="-2" width="1366" height="770" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22272727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32988358" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32988358" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32952252" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32952252" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,9 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding>
-            <element signature="e#724#742#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -307,20 +430,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/java/as.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/java/DataKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/java/HashingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>

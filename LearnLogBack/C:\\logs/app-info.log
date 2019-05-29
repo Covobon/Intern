@@ -1,0 +1,5 @@
+[DEBUG] 2019-05-27 14:59:12.581 [main] Log4j2HelloWorldExample - Debug Message Logged !!!
+[INFO ] 2019-05-27 14:59:12.586 [main] Log4j2HelloWorldExample - Info Message Logged !!!
+[ERROR] 2019-05-27 14:59:12.586 [main] Log4j2HelloWorldExample - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.howtodoinjava.log4j2.examples.Log4j2HelloWorldExample.main(Log4j2HelloWorldExample.java:14) [classes/:?]

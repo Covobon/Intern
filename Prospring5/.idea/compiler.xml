@@ -13,8 +13,5 @@
         <module name="ProSpring5" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ProSpring5" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
