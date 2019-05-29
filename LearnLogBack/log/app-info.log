@@ -1,0 +1,20 @@
+[DEBUG] 2019-05-27 15:00:03.213 [main] Log4j2HelloWorldExample - Debug Message Logged !!!
+[INFO ] 2019-05-27 15:00:03.220 [main] Log4j2HelloWorldExample - Info Message Logged !!!
+[ERROR] 2019-05-27 15:00:03.220 [main] Log4j2HelloWorldExample - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.howtodoinjava.log4j2.examples.Log4j2HelloWorldExample.main(Log4j2HelloWorldExample.java:14) [classes/:?]
+[DEBUG] 2019-05-27 15:02:27.229 [main] Log4j2HelloWorldExample - Debug Message Logged !!!
+[INFO ] 2019-05-27 15:02:27.234 [main] Log4j2HelloWorldExample - Info Message Logged !!!
+[ERROR] 2019-05-27 15:02:27.235 [main] Log4j2HelloWorldExample - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.howtodoinjava.log4j2.examples.Log4j2HelloWorldExample.main(Log4j2HelloWorldExample.java:14) [classes/:?]
+[DEBUG] 2019-05-27 15:02:36.537 [main] Log4j2HelloWorldExample - Debug Message Logged !!!
+[INFO ] 2019-05-27 15:02:36.545 [main] Log4j2HelloWorldExample - Info Message Logged !!!
+[ERROR] 2019-05-27 15:02:36.551 [main] Log4j2HelloWorldExample - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.howtodoinjava.log4j2.examples.Log4j2HelloWorldExample.main(Log4j2HelloWorldExample.java:14) [classes/:?]
+[DEBUG] 2019-05-27 15:05:47.932 [main] Log4j2HelloWorldExample - Debug Message Logged !!!
+[INFO ] 2019-05-27 15:05:47.942 [main] Log4j2HelloWorldExample - Info Message Logged !!!
+[ERROR] 2019-05-27 15:05:47.943 [main] Log4j2HelloWorldExample - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.howtodoinjava.log4j2.examples.Log4j2HelloWorldExample.main(Log4j2HelloWorldExample.java:14) [classes/:?]
