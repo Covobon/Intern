@@ -278,7 +278,7 @@ begin
                                     ' ', ELT(1+FLOOR(RAND() * 26), 'a','b','c','d','e','f','g',
                                     'h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'),
                                     ELT(1+FLOOR(RAND()*10), '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'));
-        set @donvitinh := ELT(1+FLOOR(RAND()*10), 'cai', 'l', 'kg');
+        set @donvitinh := ELT(1+FLOOR(RAND()*3), 'cai', 'l', 'kg');
 		select macongty into @idcongty from nhacungcap order by rand() limit 1;
 		select maloaihang into @idloaihang from loaihang order by rand() limit 1;
 		insert into mathang(tenhang, macongty, maloaihang, soluong, donvitinh, giahang) value
@@ -302,9 +302,8 @@ begin
 		select sohoadon into @idhoadon from dondathang order by rand() limit 1;
 		select mahang into @idmahang from mathang order by rand() limit 1;
         set @giamgia := elt(1+floor(rand()*5), 0.1, 0.2, 0.3, 0.4, 0.5);
-        select mathang.giahang into @giabansanpham from mathang where mathang.mahang=@idmahang limit 1;
-        select mathang.soluong into @soluongtong from mathang where mathang.mahang=@idmahang limit 1;
-        set @soluongdon = getId(@soluongtong);
+        set @soluongdon = getId(1000);
+        select giahang into @giabansanpham from mathang where mahang = @idmahang limit 1;
 		insert into chitietdathang(sohoadon, mahang, giaban, soluong, mucgiamgia) value
         (@idhoadon, @idmahang, @giabansanpham*@soluongdon, @soluongdon, @giamgia);
         set @counter = @counter + 1;
@@ -315,14 +314,14 @@ delimiter ;
 
 drop procedure if exists generateDataLoaiHang;
 delimiter //
-create procedure generateDataLoaiHang(counter1 int)
+create procedure generateDataLoaiHang()
 begin
-	set @counter := 0;    
-    while @counter < counter1 do
-		set @tenloaihang = elt(1+floor(rand()*4), 'hang cong nghe', 'hang de vo', 'hang doc hai', 'hang cu');
+    set @ind = 1;
+    while  @ind < 5 do
+		set @tenloaihang = elt(@ind, 'hang cong nghe', 'hang de vo', 'hang doc hai', 'hang cu');
 		insert into loaihang(tenloaihang) value (@tenloaihang);
-        set @counter = @counter + 1;
-    end while;
+        set @ind = @ind + 1;
+    end while ;
 end //
 
 delimiter ;
@@ -331,7 +330,7 @@ call generateDataKhachHang(100);
 call generateDataNhanVien(100);
 call generateDataDonDatHang(100);
 call generateDataNhaCungCap(100);
-call generateDataLoaiHang(100);
+call generateDataLoaiHang();
 call generateDataMatHang(100);
 call generateDataChiTietDatHang(100);
 
