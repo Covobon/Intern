@@ -25,13 +25,13 @@ public class App {
         loop:do {
             System.out.println("You must loggin to use: \n" +
                     "1. Log in.\n" +
-                    "2. Exit.");
-            switch(in.nextInt()){
-                case 1 : {
+                    "Others to Exit.");
+            switch(in.nextLine()){
+                case "1" : {
                     run.start();
                     break;
                 }
-                case 2 : {
+                default:{
                     break loop;
                 }
             }

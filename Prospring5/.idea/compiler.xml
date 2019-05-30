@@ -6,10 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< HEAD
-        <module name="Prospring5" />
-=======
->>>>>>> 6215337cb95422f6f88f9c5d70b4e4c31a0c6e48
         <module name="ProSpring5" />
       </profile>
     </annotationProcessing>

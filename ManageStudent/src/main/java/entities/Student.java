@@ -75,4 +75,9 @@ public class Student {
     public void addClass(Clas value){
         this.clas.add(value);
     }
+
+    public String showInfo() {
+        return "Name: " + this.lastName + "---" + this.lastName + "---Id: " + this.id + "---Email: " + this.email
+                +"---Phone Number: " + this.phonenumber;
+    }
 }

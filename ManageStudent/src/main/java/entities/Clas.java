@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class Clas {
     String id;
 
+    public Clas(String id) {
+        this.id = id;
+    }
+
     public String getId() {
         return id;
     }

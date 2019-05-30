@@ -3,19 +3,35 @@ package services;
 import dao.JdbcClasDao;
 import dao.JdbcStudentDao;
 import dao.JdbcTeacherDao;
+import entities.Student;
 import entities.Teacher;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Run {
     private Teacher teacher;
-    private JdbcTeacherDao jdbcTeacherDao;
-    private JdbcStudentDao jdbcStudentDao;
-    private JdbcClasDao jdbcClasDao;
+    private ServiceTeacher serviceTeacher;
+    private ServiceStudent serviceStudent;
+
+    public void setServiceTeacher(ServiceTeacher serviceTeacher) {
+        this.serviceTeacher = serviceTeacher;
+    }
+
+    public void setServiceStudent(ServiceStudent serviceStudent) {
+        this.serviceStudent = serviceStudent;
+    }
+
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+    }
+
 
     public void start(){
-        loggin();
-        manageStudent();
+        this.teacher = serviceTeacher.loggin();
+        if(teacher != null) {
+            manageStudent(teacher);
+        }
     }
 /*
     private void execute() {
@@ -40,7 +56,7 @@ public class Run {
         }while(true);
     }*/
 
-    private void manageStudent() {
+    private void manageStudent(Teacher teacher) {
         Scanner in = new Scanner(System.in);
         loop:do{
             System.out.println("Manage Student:\n" +
@@ -52,33 +68,33 @@ public class Run {
                     "6. Add class for student.\n" +
                     "7. Get class.\n" +
                     "Enter others to log out.");
-            switch (in.nextInt()){
-                case 1: {
-                    showStudents();
+            switch (in.nextLine()){
+                case "1": {
+                    serviceStudent.showStudentByTeacher(teacher);
                     break;
                 }
-                case 2: {
-                    findStudents();
+                case "2": {
+                    serviceStudent.findStudent();
                     break;
                 }
-                case 3: {
-                    addStudent();
+                case "3": {
+                    serviceStudent.addStudent();
                     break;
                 }
-                case 4: {
-                    replaceStudent();
+                case "4": {
+                    serviceStudent.replaceStudent();
                     break;
                 }
-                case 5: {
-                    removeStudent();
+                case "5": {
+                    serviceStudent.removeStudent();
                     break;
                 }
-                case 6: {
-                    addClass();
+                case "6": {
+                    serviceStudent.addToClas();
                     break;
                 }
-                case 7: {
-                    getClass();
+                case "7": {
+                    serviceTeacher.getClas();
                     break;
                 }
                 default: {
@@ -87,46 +103,4 @@ public class Run {
             }
         }while(true);
     }
-
-    private void addClass() {
-    }
-
-    private void removeStudent() {
-    }
-
-    private void replaceStudent() {
-    }
-
-    private void addStudent() {
-    }
-
-    private void findStudents() {
-    }
-
-    private void showStudents() {
-    }
-
-    public void setTeacher(Teacher teacher) {
-        this.teacher = teacher;
-    }
-
-    public void setJdbcTeacherDao(JdbcTeacherDao jdbcTeacherDao) {
-        this.jdbcTeacherDao = jdbcTeacherDao;
-    }
-
-    private void loggin() {
-        String account, firstName, lastName, email;
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter account: ");
-        account = in.nextLine();
-        System.out.println("Enter first name: ");
-        firstName = in.nextLine();
-        System.out.println("Enter last name: ");
-        lastName = in.nextLine();
-        System.out.println("Enter email: ");
-        email = in.nextLine();
-        teacher = jdbcTeacherDao.loggin(account, firstName, lastName, email);
-    }
-
-
 }

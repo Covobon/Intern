@@ -1,5 +1,7 @@
 package dao;
 
+import entities.Clas;
+import entities.Teacher;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import entities.Student;
@@ -44,14 +46,28 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
             String query = "select * from student;";
             st = conn.prepareStatement(query);
             ResultSet rs = st.executeQuery();
-            while(rs.next()) {
-                students.add(new Student(rs.getString(1), rs.getString(2),
-                        rs.getString(3), rs.getString(4), rs.getString(5)));
-            }
+            students = getStudents(rs);
         } catch (SQLException e){
             e.printStackTrace();
         }
 
+        return students;
+    }
+
+    @Override
+    public ArrayList<Student> getStudentsByTeacher(Teacher teacher) {
+        ArrayList<Student> students = new ArrayList<>();
+        try {
+            String query = "select * from student join joined j on student.id_student = j.id_student " +
+                    "join class c on j.id_class = c.id_class " +
+                    "where c.id_teacher = ?";
+            st = conn.prepareStatement(query);
+            st.setString(1, teacher.getAccount());
+            ResultSet rs = st.executeQuery();
+            students = getStudents(rs);
+        }catch(SQLException e) {
+            e.printStackTrace();
+        }
         return students;
     }
 
@@ -63,11 +79,7 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
             st = conn.prepareStatement(query);
             st.setString(1, firstName);
             ResultSet rs = st.executeQuery();
-            while(rs.next()) {
-                students.add(new Student(rs.getString(1), rs.getString(2),
-                        rs.getString(3), rs.getString(4), rs.getString(5)));
-
-            }
+            students = getStudents(rs);
         } catch (SQLException e) {
             LOGGER.error(e);
         }
@@ -82,11 +94,7 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
             st = conn.prepareStatement(query);
             st.setString(1, lastName);
             ResultSet rs = st.executeQuery();
-            while(rs.next()) {
-                students.add(new Student(rs.getString(1), rs.getString(2),
-                        rs.getString(3), rs.getString(4), rs.getString(5)));
-
-            }
+            students = getStudents(rs);
         } catch (SQLException e) {
             LOGGER.error(e);
         }
@@ -100,11 +108,7 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
             st = conn.prepareStatement(query);
             st.setString(1, phoneNumber);
             ResultSet rs = st.executeQuery();
-            while(rs.next()) {
-                return new Student(rs.getString(1), rs.getString(2),
-                        rs.getString(3), rs.getString(4), rs.getString(5));
-
-            }
+            return getStudent(rs);
         } catch (SQLException e) {
             LOGGER.error(e);
         }
@@ -118,11 +122,7 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
             st = conn.prepareStatement(query);
             st.setString(1, email);
             ResultSet rs = st.executeQuery();
-            while(rs.next()) {
-                return new Student(rs.getString(1), rs.getString(2),
-                        rs.getString(3), rs.getString(4), rs.getString(5));
-
-            }
+            return getStudent(rs);
         } catch (SQLException e) {
             LOGGER.error(e);
         }
@@ -136,15 +136,32 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
             st = conn.prepareStatement(query);
             st.setString(1, id);
             ResultSet rs = st.executeQuery();
-            while(rs.next()) {
-                return new Student(rs.getString(1), rs.getString(2),
-                        rs.getString(3), rs.getString(4), rs.getString(5));
+            return getStudent(rs);
 
-            }
         } catch (SQLException e) {
             LOGGER.error(e);
         }
         return null;
+    }
+
+    @Override
+    public ArrayList<Student> findStudentsByValue(String info) {
+        try {
+            String query = "select * from student where id_student like ? or " +
+                    "last_name like ? or first_name like ? or email like ? or phonenumber like ?";
+            st = conn.prepareStatement(query);
+            st.setString(1, '%' + info + '%');
+            st.setString(2, '%' + info + '%');
+            st.setString(3, '%' + info + '%');
+            st.setString(4, '%' + info + '%');
+            st.setString(5, '%' + info + '%');
+            ResultSet rs = st.executeQuery();
+            return getStudents(rs);
+
+        } catch (SQLException e) {
+            LOGGER.error(e);
+        }
+        return new ArrayList<>();
     }
 
     @Override
@@ -215,5 +232,50 @@ public class JdbcStudentDao implements StudentDao, InitializingBean {
         }catch(SQLException e){
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void addToClas(Student student, Clas clas) {
+        try {
+            st = conn.prepareStatement("select count(*) from student where id_student = ?");
+            st.setString(1, student.getId());
+            ResultSet rs = st.executeQuery();
+            rs.next();
+            if (rs.getInt(1) == 0){
+                System.out.println("Student you choose does not exists");
+                return;
+            }
+            st = conn.prepareStatement("select count(*) from class where id_class = ?");
+            rs = st.executeQuery();
+            rs.next();
+            if(rs.getInt(1) == 0) {
+                System.out.println("Class you choose does not exists");
+                return;
+            }
+            String query = "insert into joined(id_student, id_class) VALUE (?, ?)";
+            st = conn.prepareStatement(query);
+
+            st.setString(1, student.getId());
+            st.setString(2, clas.getId());
+            st.executeUpdate();
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+
+    }
+
+    private ArrayList<Student> getStudents(ResultSet rs) throws SQLException {
+        ArrayList<Student> students = new ArrayList<>();
+        while(rs.next()) {
+            students.add(new Student(rs.getString(1), rs.getString(2),
+                    rs.getString(3), rs.getString(6), rs.getString(5)));
+        }
+        return students;
+    }
+
+    private Student getStudent(ResultSet rs) throws SQLException {
+        rs.next();
+        return new Student(rs.getString(1), rs.getString(2),
+                rs.getString(3), rs.getString(6), rs.getString(5));
     }
 }

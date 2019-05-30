@@ -13,12 +13,16 @@
           p:username="#{jdbc.username}"
           p:password="#{jdbc.password}" />
     <bean id="jdbcStudentDao" class="dao.JdbcStudentDao"
-          p:dataSource-ref="dataSource" />
+          p:dataSource-ref="dataSource"/>
+
     <bean id="jdbcTeacherDao" class="dao.JdbcTeacherDao"
-          p:dataSource-ref="dataSource" />
+          p:dataSource-ref="dataSource"
+          p:jdbcClasDao-ref="jdbcClasDao"/>
+
     <bean id="jdbcClasDao" class="dao.JdbcClasDao"
           p:dataSource-ref="dataSource"
-          p:jdbcStudentDao-ref="jdbcStudentDao" />
+          p:jdbcStudentDao-ref="jdbcStudentDao"/>
+
     <util:properties id="jdbc" location="classpath:db/jdbc.properties" />
 
 </beans>

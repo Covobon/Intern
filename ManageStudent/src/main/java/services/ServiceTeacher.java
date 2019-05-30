@@ -4,6 +4,9 @@ import entities.Clas;
 import entities.Teacher;
 
 public interface ServiceTeacher {
+    Teacher loggin();
     void logout(Teacher teacher);
-    void addClass(Teacher teacher, Clas clas);
+    void addClas(Teacher teacher, Clas clas);
+
+    void getClas();
 }

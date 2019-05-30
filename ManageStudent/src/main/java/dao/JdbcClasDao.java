@@ -92,4 +92,17 @@ public class JdbcClasDao implements ClasDao , InitializingBean {
     public ArrayList<Clas> getClassesByStudent(Student student) {
         return null;
     }
+
+    @Override
+    public void openClas(Clas clas, Teacher teacher) {
+        try{
+            String query="insert into class(id_class, name_class, id_teacher, id_joined) values (?,?,?,?)";
+            st = conn.prepareStatement(query);
+            st.setString(1, clas.getId());
+            st.setString(2, clas.getName());
+            st.setString(3, clas.getTeacher().getAccount());
+            st.setString(4, teacher.getAccount());
+            st.executeUpdate();
+        }catch (SQLException e){e.printStackTrace();}
+    }
 }
